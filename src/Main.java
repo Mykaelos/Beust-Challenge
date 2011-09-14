@@ -1,7 +1,7 @@
 import java.util.Calendar;
 
 /**
- * Challenge: Write a counter function that counts from 1 to MAX but only
+ * Beust Challenge: Write a counter function that counts from 1 to MAX but only
  * returns numbers whose digits don't repeat.
  * 
  * For example:
@@ -26,7 +26,7 @@ public class Main {
         long startTime = Calendar.getInstance().getTimeInMillis();
         System.out.println("hi!");
         
-        
+        //good times go here
         
         long endTime = Calendar.getInstance().getTimeInMillis();
         System.out.println("Length: " + (endTime - startTime) + "ms");
