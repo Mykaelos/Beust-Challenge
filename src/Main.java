@@ -9,18 +9,17 @@ import java.util.Calendar;
  * 98, 102, 103 (99, 100, and 101, are not valid)
  * 5432, 5436, 5437 (5433, 5434 and 5435 are not valid)
  * 
- * 
  * Bonus: 
- * Display the largest jump between numbers (in the sequences above, it’s 4: 98 -> 102)
- * Display the total count of numbers
- * 
- * 
+ * 10pts: Display the largest jump between numbers (in the sequences above, it’s 4: 98 -> 102)
+ * 5pts:  Display the total count of numbers
+ * 30pts: Use the BONUS_MAX instead of MAX, but make it run in under 15 minutes.
  * 
  * @author mmader
  */
 
 public class Main {
-    public static int MAX = 10000;
+    public static long MAX = 10000;
+    public static long BONUS_MAX = 10000000000l;
 
     public static void main(String[] args) {
         long startTime = Calendar.getInstance().getTimeInMillis();
@@ -31,5 +30,4 @@ public class Main {
         long endTime = Calendar.getInstance().getTimeInMillis();
         System.out.println("Length: " + (endTime - startTime) + "ms");
     }
-
 }
